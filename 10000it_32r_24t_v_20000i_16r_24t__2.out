@@ -1,0 +1,21 @@
+[agent-1] INFO com.prajeala.hex.io.Client - Received request StartClientRequest(playerColor=R, boardSize=11)
+[agent-1] INFO com.prajeala.hex.agents.AgentFactory - Using agent type parallel
+[agent-1] INFO com.prajeala.hex.agents.HexAgent - Using 10000 process iterations
+[agent-1] INFO com.prajeala.hex.agents.ParallelHexAgent - Using 32 rollout iterations[agent-2] INFO com.prajeala.hex.io.Client - Received request StartClientRequest(playerColor=B, boardSize=11)
+
+[agent-1] INFO com.prajeala.hex.agents.ParallelHexAgent - Using 24 executor threads
+[agent-2] INFO com.prajeala.hex.agents.AgentFactory - Using agent type parallel
+[agent-2] INFO com.prajeala.hex.agents.HexAgent - Using 20000 process iterations
+[agent-2] INFO com.prajeala.hex.agents.ParallelHexAgent - Using 16 rollout iterations
+[agent-2] INFO com.prajeala.hex.agents.ParallelHexAgent - Using 24 executor threads
+[agent-2] INFO com.prajeala.hex.io.Client - Took 8 milliseconds to process request
+[agent-1] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=10, y=7))
+[agent-1] INFO com.prajeala.hex.io.Client - Took 17 milliseconds to process request
+[agent-2] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=B, move=EngineMove(x=10, y=7))
+[agent-1] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=B, move=EngineMove(x=10, y=7))
+[agent-1] INFO com.prajeala.hex.io.Client - Took 0 milliseconds to process request
+[agent-2] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=5, y=5))
+[agent-2] INFO com.prajeala.hex.io.Client - Took 7 milliseconds to process request
+[agent-2] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=R, move=EngineMove(x=5, y=5))
+[agent-2] INFO com.prajeala.hex.io.Client - Took 0 milliseconds to process request
+[agent-1] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=R, move=EngineMove(x=5, y=5))

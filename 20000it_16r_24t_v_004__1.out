@@ -1,0 +1,569 @@
+[client-thread] INFO com.prajeala.hex.io.Client - Received request StartClientRequest(playerColor=R, boardSize=11)
+[client-thread] INFO com.prajeala.hex.agents.AgentFactory - Using agent type parallel
+[client-thread] INFO com.prajeala.hex.agents.HexAgent - Using 20000 process iterations
+[client-thread] INFO com.prajeala.hex.agents.ParallelHexAgent - Using 16 rollout iterations
+[client-thread] INFO com.prajeala.hex.agents.ParallelHexAgent - Using 24 executor threads
+[client-thread] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=10, y=9))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 15 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=B, move=EngineMove(x=10, y=9))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 0 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=R, move=EngineMove(x=5, y=6))
+[client-thread] INFO com.prajeala.hex.agents.HexAgent - Found best child with move EngineMove(x=6, y=4) and value 0.01043741403447337
+[client-thread] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=6, y=4))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 19933 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=B, move=EngineMove(x=6, y=4))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 0 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=R, move=EngineMove(x=6, y=3))
+[client-thread] INFO com.prajeala.hex.agents.HexAgent - Found best child with move EngineMove(x=5, y=4) and value 0.08478869638678896
+[client-thread] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=5, y=4))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 21819 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=B, move=EngineMove(x=5, y=4))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 0 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=R, move=EngineMove(x=7, y=4))
+[client-thread] INFO com.prajeala.hex.agents.HexAgent - Found best child with move EngineMove(x=7, y=3) and value 0.14164321074843986
+[client-thread] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=7, y=3))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 23202 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=B, move=EngineMove(x=7, y=3))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 0 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=R, move=EngineMove(x=3, y=5))
+[client-thread] INFO com.prajeala.hex.agents.HexAgent - Found best child with move EngineMove(x=8, y=3) and value 0.1426491055079177
+[client-thread] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=8, y=3))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 23827 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=B, move=EngineMove(x=8, y=3))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 0 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=R, move=EngineMove(x=3, y=4))
+[client-thread] INFO com.prajeala.hex.agents.HexAgent - Found best child with move EngineMove(x=4, y=6) and value 0.14918128530790264
+[client-thread] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=4, y=6))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 23770 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=B, move=EngineMove(x=4, y=6))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 0 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=R, move=EngineMove(x=2, y=7))
+[client-thread] INFO com.prajeala.hex.agents.HexAgent - Found best child with move EngineMove(x=0, y=10) and value 0.12564710698714623
+[client-thread] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=0, y=10))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 22731 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=B, move=EngineMove(x=0, y=10))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 0 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=R, move=EngineMove(x=3, y=7))
+[client-thread] INFO com.prajeala.hex.agents.HexAgent - Found best child with move EngineMove(x=1, y=10) and value 0.12029192874877197
+[client-thread] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=1, y=10))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 20312 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=B, move=EngineMove(x=1, y=10))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 0 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=R, move=EngineMove(x=3, y=8))
+[client-thread] INFO com.prajeala.hex.agents.HexAgent - Found best child with move EngineMove(x=6, y=7) and value 0.23461249846875723
+[client-thread] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=6, y=7))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 21092 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=B, move=EngineMove(x=6, y=7))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 0 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=R, move=EngineMove(x=2, y=10))
+[client-thread] INFO com.prajeala.hex.agents.HexAgent - Found best child with move EngineMove(x=3, y=3) and value -0.12947376213890466
+[client-thread] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=3, y=3))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 17441 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=B, move=EngineMove(x=3, y=3))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 0 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=R, move=EngineMove(x=4, y=3))
+[client-thread] INFO com.prajeala.hex.agents.HexAgent - Found best child with move EngineMove(x=8, y=1) and value -0.24379507417805046
+[client-thread] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=8, y=1))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 17749 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=B, move=EngineMove(x=8, y=1))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 0 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=R, move=EngineMove(x=2, y=6))
+[client-thread] INFO com.prajeala.hex.agents.HexAgent - Found best child with move EngineMove(x=5, y=1) and value -0.33566677112717747
+[client-thread] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=5, y=1))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 15638 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=B, move=EngineMove(x=5, y=1))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 0 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=R, move=EngineMove(x=4, y=2))
+[client-thread] INFO com.prajeala.hex.agents.HexAgent - Found best child with move EngineMove(x=4, y=8) and value -0.3020593455724981
+[client-thread] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=4, y=8))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 17683 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=B, move=EngineMove(x=4, y=8))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 0 milliseconds to process request
+Started game of Hex. Board is 11x11.
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 0 0 0 0 
+  0 0 0 0 0 0 0 0 0 0 0 
+   0 0 0 0 0 0 0 0 0 0 0 
+    0 0 0 0 0 0 0 0 0 0 0 
+     0 0 0 0 0 0 0 0 0 0 0 
+      0 0 0 0 0 0 0 0 0 0 0 
+       0 0 0 0 0 0 0 0 0 0 0 
+        0 0 0 0 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 0 0 
+
+JNA occupied 10,9
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 0 0 0 0 
+  0 0 0 0 0 0 0 0 0 0 0 
+   0 0 0 0 0 0 0 0 0 0 0 
+    0 0 0 0 0 0 0 0 0 0 0 
+     0 0 0 0 0 0 0 0 0 0 0 
+      0 0 0 0 0 0 0 0 0 0 0 
+       0 0 0 0 0 0 0 0 0 0 0 
+        0 0 0 0 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 R 0 
+
+PY occupied 5,6
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 0 0 0 0 
+  0 0 0 0 0 0 0 0 0 0 0 
+   0 0 0 0 0 0 0 0 0 0 0 
+    0 0 0 0 0 0 0 0 0 0 0 
+     0 0 0 0 0 0 B 0 0 0 0 
+      0 0 0 0 0 0 0 0 0 0 0 
+       0 0 0 0 0 0 0 0 0 0 0 
+        0 0 0 0 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 R 0 
+
+JNA occupied 6,4
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 0 0 0 0 
+  0 0 0 0 0 0 0 0 0 0 0 
+   0 0 0 0 0 0 0 0 0 0 0 
+    0 0 0 0 0 0 0 0 0 0 0 
+     0 0 0 0 0 0 B 0 0 0 0 
+      0 0 0 0 R 0 0 0 0 0 0 
+       0 0 0 0 0 0 0 0 0 0 0 
+        0 0 0 0 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 R 0 
+
+PY occupied 6,3
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 0 0 0 0 
+  0 0 0 0 0 0 0 0 0 0 0 
+   0 0 0 0 0 0 0 0 0 0 0 
+    0 0 0 0 0 0 0 0 0 0 0 
+     0 0 0 0 0 0 B 0 0 0 0 
+      0 0 0 B R 0 0 0 0 0 0 
+       0 0 0 0 0 0 0 0 0 0 0 
+        0 0 0 0 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 R 0 
+
+JNA occupied 5,4
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 0 0 0 0 
+  0 0 0 0 0 0 0 0 0 0 0 
+   0 0 0 0 0 0 0 0 0 0 0 
+    0 0 0 0 0 0 0 0 0 0 0 
+     0 0 0 0 R 0 B 0 0 0 0 
+      0 0 0 B R 0 0 0 0 0 0 
+       0 0 0 0 0 0 0 0 0 0 0 
+        0 0 0 0 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 R 0 
+
+PY occupied 7,4
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 0 0 0 0 
+  0 0 0 0 0 0 0 0 0 0 0 
+   0 0 0 0 0 0 0 0 0 0 0 
+    0 0 0 0 0 0 0 0 0 0 0 
+     0 0 0 0 R 0 B 0 0 0 0 
+      0 0 0 B R 0 0 0 0 0 0 
+       0 0 0 0 B 0 0 0 0 0 0 
+        0 0 0 0 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 R 0 
+
+JNA occupied 7,3
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 0 0 0 0 
+  0 0 0 0 0 0 0 0 0 0 0 
+   0 0 0 0 0 0 0 0 0 0 0 
+    0 0 0 0 0 0 0 0 0 0 0 
+     0 0 0 0 R 0 B 0 0 0 0 
+      0 0 0 B R 0 0 0 0 0 0 
+       0 0 0 R B 0 0 0 0 0 0 
+        0 0 0 0 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 R 0 
+
+PY occupied 3,5
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 0 0 0 0 
+  0 0 0 0 0 0 0 0 0 0 0 
+   0 0 0 0 0 B 0 0 0 0 0 
+    0 0 0 0 0 0 0 0 0 0 0 
+     0 0 0 0 R 0 B 0 0 0 0 
+      0 0 0 B R 0 0 0 0 0 0 
+       0 0 0 R B 0 0 0 0 0 0 
+        0 0 0 0 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 R 0 
+
+JNA occupied 8,3
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 0 0 0 0 
+  0 0 0 0 0 0 0 0 0 0 0 
+   0 0 0 0 0 B 0 0 0 0 0 
+    0 0 0 0 0 0 0 0 0 0 0 
+     0 0 0 0 R 0 B 0 0 0 0 
+      0 0 0 B R 0 0 0 0 0 0 
+       0 0 0 R B 0 0 0 0 0 0 
+        0 0 0 R 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 R 0 
+
+PY occupied 3,4
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 0 0 0 0 
+  0 0 0 0 0 0 0 0 0 0 0 
+   0 0 0 0 B B 0 0 0 0 0 
+    0 0 0 0 0 0 0 0 0 0 0 
+     0 0 0 0 R 0 B 0 0 0 0 
+      0 0 0 B R 0 0 0 0 0 0 
+       0 0 0 R B 0 0 0 0 0 0 
+        0 0 0 R 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 R 0 
+
+JNA occupied 4,6
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 0 0 0 0 
+  0 0 0 0 0 0 0 0 0 0 0 
+   0 0 0 0 B B 0 0 0 0 0 
+    0 0 0 0 0 0 R 0 0 0 0 
+     0 0 0 0 R 0 B 0 0 0 0 
+      0 0 0 B R 0 0 0 0 0 0 
+       0 0 0 R B 0 0 0 0 0 0 
+        0 0 0 R 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 R 0 
+
+PY occupied 2,7
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 0 0 0 0 
+  0 0 0 0 0 0 0 B 0 0 0 
+   0 0 0 0 B B 0 0 0 0 0 
+    0 0 0 0 0 0 R 0 0 0 0 
+     0 0 0 0 R 0 B 0 0 0 0 
+      0 0 0 B R 0 0 0 0 0 0 
+       0 0 0 R B 0 0 0 0 0 0 
+        0 0 0 R 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 R 0 
+
+JNA occupied 0,10
+0 0 0 0 0 0 0 0 0 0 R 
+ 0 0 0 0 0 0 0 0 0 0 0 
+  0 0 0 0 0 0 0 B 0 0 0 
+   0 0 0 0 B B 0 0 0 0 0 
+    0 0 0 0 0 0 R 0 0 0 0 
+     0 0 0 0 R 0 B 0 0 0 0 
+      0 0 0 B R 0 0 0 0 0 0 
+       0 0 0 R B 0 0 0 0 0 0 
+        0 0 0 R 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 R 0 
+
+PY occupied 3,7
+0 0 0 0 0 0 0 0 0 0 R 
+ 0 0 0 0 0 0 0 0 0 0 0 
+  0 0 0 0 0 0 0 B 0 0 0 
+   0 0 0 0 B B 0 B 0 0 0 
+    0 0 0 0 0 0 R 0 0 0 0 
+     0 0 0 0 R 0 B 0 0 0 0 
+      0 0 0 B R 0 0 0 0 0 0 
+       0 0 0 R B 0 0 0 0 0 0 
+        0 0 0 R 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 R 0 
+
+JNA occupied 1,10
+0 0 0 0 0 0 0 0 0 0 R 
+ 0 0 0 0 0 0 0 0 0 0 R 
+  0 0 0 0 0 0 0 B 0 0 0 
+   0 0 0 0 B B 0 B 0 0 0 
+    0 0 0 0 0 0 R 0 0 0 0 
+     0 0 0 0 R 0 B 0 0 0 0 
+      0 0 0 B R 0 0 0 0 0 0 
+       0 0 0 R B 0 0 0 0 0 0 
+        0 0 0 R 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 R 0 
+
+PY occupied 3,8
+0 0 0 0 0 0 0 0 0 0 R 
+ 0 0 0 0 0 0 0 0 0 0 R 
+  0 0 0 0 0 0 0 B 0 0 0 
+   0 0 0 0 B B 0 B B 0 0 
+    0 0 0 0 0 0 R 0 0 0 0 
+     0 0 0 0 R 0 B 0 0 0 0 
+      0 0 0 B R 0 0 0 0 0 0 
+       0 0 0 R B 0 0 0 0 0 0 
+        0 0 0 R 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 R 0 
+
+JNA occupied 6,7
+0 0 0 0 0 0 0 0 0 0 R 
+ 0 0 0 0 0 0 0 0 0 0 R 
+  0 0 0 0 0 0 0 B 0 0 0 
+   0 0 0 0 B B 0 B B 0 0 
+    0 0 0 0 0 0 R 0 0 0 0 
+     0 0 0 0 R 0 B 0 0 0 0 
+      0 0 0 B R 0 0 R 0 0 0 
+       0 0 0 R B 0 0 0 0 0 0 
+        0 0 0 R 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 R 0 
+
+PY occupied 2,10
+0 0 0 0 0 0 0 0 0 0 R 
+ 0 0 0 0 0 0 0 0 0 0 R 
+  0 0 0 0 0 0 0 B 0 0 B 
+   0 0 0 0 B B 0 B B 0 0 
+    0 0 0 0 0 0 R 0 0 0 0 
+     0 0 0 0 R 0 B 0 0 0 0 
+      0 0 0 B R 0 0 R 0 0 0 
+       0 0 0 R B 0 0 0 0 0 0 
+        0 0 0 R 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 R 0 
+
+JNA occupied 3,3
+0 0 0 0 0 0 0 0 0 0 R 
+ 0 0 0 0 0 0 0 0 0 0 R 
+  0 0 0 0 0 0 0 B 0 0 B 
+   0 0 0 R B B 0 B B 0 0 
+    0 0 0 0 0 0 R 0 0 0 0 
+     0 0 0 0 R 0 B 0 0 0 0 
+      0 0 0 B R 0 0 R 0 0 0 
+       0 0 0 R B 0 0 0 0 0 0 
+        0 0 0 R 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 R 0 
+
+PY occupied 4,3
+0 0 0 0 0 0 0 0 0 0 R 
+ 0 0 0 0 0 0 0 0 0 0 R 
+  0 0 0 0 0 0 0 B 0 0 B 
+   0 0 0 R B B 0 B B 0 0 
+    0 0 0 B 0 0 R 0 0 0 0 
+     0 0 0 0 R 0 B 0 0 0 0 
+      0 0 0 B R 0 0 R 0 0 0 
+       0 0 0 R B 0 0 0 0 0 0 
+        0 0 0 R 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 R 0 
+
+JNA occupied 8,1
+0 0 0 0 0 0 0 0 0 0 R 
+ 0 0 0 0 0 0 0 0 0 0 R 
+  0 0 0 0 0 0 0 B 0 0 B 
+   0 0 0 R B B 0 B B 0 0 
+    0 0 0 B 0 0 R 0 0 0 0 
+     0 0 0 0 R 0 B 0 0 0 0 
+      0 0 0 B R 0 0 R 0 0 0 
+       0 0 0 R B 0 0 0 0 0 0 
+        0 R 0 R 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 R 0 
+
+PY occupied 2,6
+0 0 0 0 0 0 0 0 0 0 R 
+ 0 0 0 0 0 0 0 0 0 0 R 
+  0 0 0 0 0 0 B B 0 0 B 
+   0 0 0 R B B 0 B B 0 0 
+    0 0 0 B 0 0 R 0 0 0 0 
+     0 0 0 0 R 0 B 0 0 0 0 
+      0 0 0 B R 0 0 R 0 0 0 
+       0 0 0 R B 0 0 0 0 0 0 
+        0 R 0 R 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 R 0 
+
+JNA occupied 5,1
+0 0 0 0 0 0 0 0 0 0 R 
+ 0 0 0 0 0 0 0 0 0 0 R 
+  0 0 0 0 0 0 B B 0 0 B 
+   0 0 0 R B B 0 B B 0 0 
+    0 0 0 B 0 0 R 0 0 0 0 
+     0 R 0 0 R 0 B 0 0 0 0 
+      0 0 0 B R 0 0 R 0 0 0 
+       0 0 0 R B 0 0 0 0 0 0 
+        0 R 0 R 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 R 0 
+
+PY occupied 4,2
+0 0 0 0 0 0 0 0 0 0 R 
+ 0 0 0 0 0 0 0 0 0 0 R 
+  0 0 0 0 0 0 B B 0 0 B 
+   0 0 0 R B B 0 B B 0 0 
+    0 0 B B 0 0 R 0 0 0 0 
+     0 R 0 0 R 0 B 0 0 0 0 
+      0 0 0 B R 0 0 R 0 0 0 
+       0 0 0 R B 0 0 0 0 0 0 
+        0 R 0 R 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 R 0 
+
+JNA occupied 4,8
+0 0 0 0 0 0 0 0 0 0 R 
+ 0 0 0 0 0 0 0 0 0 0 R 
+  0 0 0 0 0 0 B B 0 0 B 
+   0 0 0 R B B 0 B B 0 0 
+    0 0 B B 0 0 R 0 R 0 0 
+     0 R 0 0 R 0 B 0 0 0 0 
+      0 0 0 B R 0 0 R 0 0 0 
+       0 0 0 R B 0 0 0 0 0 0 
+        0 R 0 R 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 R 0 
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=R, move=EngineMove(x=3, y=9))
+[client-thread] INFO com.prajeala.hex.agents.HexAgent - Found best child with move EngineMove(x=4, y=1) and value -0.4690537576964292
+[client-thread] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=4, y=1))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 15401 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=B, move=EngineMove(x=4, y=1))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 0 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=R, move=EngineMove(x=6, y=1))
+[client-thread] INFO com.prajeala.hex.agents.HexAgent - Found best child with move EngineMove(x=5, y=2) and value -0.45715221204579554
+[client-thread] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=5, y=2))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 14470 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=B, move=EngineMove(x=5, y=2))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 0 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=R, move=EngineMove(x=3, y=2))
+[client-thread] INFO com.prajeala.hex.agents.HexAgent - Found best child with move EngineMove(x=3, y=1) and value -0.41950311743421154
+[client-thread] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=3, y=1))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 13834 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=B, move=EngineMove(x=3, y=1))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 0 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=R, move=EngineMove(x=5, y=3))
+Group004/quality_agent.py:9: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  from quality_rave import QRAVEEngine
+QB Agent: 15130, 53712, 15
+QB Agent: 15816, 54559, 15
+QB Agent: 16199, 53361, 15
+QB Agent: 16135, 68109, 15
+QB Agent: 16709, 68744, 15
+QB Agent: 17629, 72955, 15
+QB Agent: 18183, 58420, 15
+QB Agent: 17902, 55597, 15
+QB Agent: 18579, 47437, 15
+QB Agent: 18525, 52532, 15
+QB Agent: 20547, 71458, 15
+QB Agent: 11195, 43340, 8
+QB Agent: 10636, 39535, 8
+QB Agent: 11276, 53370, 8
+QB Agent: 10857, 34963, 8
+QB Agent: 12151, 41837, 8
+[client-thread] INFO com.prajeala.hex.agents.HexAgent - Found best child with move EngineMove(x=2, y=0) and value -0.46474198922959
+[client-thread] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=2, y=0))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 12488 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request EndClientRequest(playerColor=B)
+
+PY occupied 3,9
+0 0 0 0 0 0 0 0 0 0 R 
+ 0 0 0 0 0 0 0 0 0 0 R 
+  0 0 0 0 0 0 B B 0 0 B 
+   0 0 0 R B B 0 B B B 0 
+    0 0 B B 0 0 R 0 R 0 0 
+     0 R 0 0 R 0 B 0 0 0 0 
+      0 0 0 B R 0 0 R 0 0 0 
+       0 0 0 R B 0 0 0 0 0 0 
+        0 R 0 R 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 R 0 
+
+JNA occupied 4,1
+0 0 0 0 0 0 0 0 0 0 R 
+ 0 0 0 0 0 0 0 0 0 0 R 
+  0 0 0 0 0 0 B B 0 0 B 
+   0 0 0 R B B 0 B B B 0 
+    0 R B B 0 0 R 0 R 0 0 
+     0 R 0 0 R 0 B 0 0 0 0 
+      0 0 0 B R 0 0 R 0 0 0 
+       0 0 0 R B 0 0 0 0 0 0 
+        0 R 0 R 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 R 0 
+
+PY occupied 6,1
+0 0 0 0 0 0 0 0 0 0 R 
+ 0 0 0 0 0 0 0 0 0 0 R 
+  0 0 0 0 0 0 B B 0 0 B 
+   0 0 0 R B B 0 B B B 0 
+    0 R B B 0 0 R 0 R 0 0 
+     0 R 0 0 R 0 B 0 0 0 0 
+      0 B 0 B R 0 0 R 0 0 0 
+       0 0 0 R B 0 0 0 0 0 0 
+        0 R 0 R 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 R 0 
+
+JNA occupied 5,2
+0 0 0 0 0 0 0 0 0 0 R 
+ 0 0 0 0 0 0 0 0 0 0 R 
+  0 0 0 0 0 0 B B 0 0 B 
+   0 0 0 R B B 0 B B B 0 
+    0 R B B 0 0 R 0 R 0 0 
+     0 R R 0 R 0 B 0 0 0 0 
+      0 B 0 B R 0 0 R 0 0 0 
+       0 0 0 R B 0 0 0 0 0 0 
+        0 R 0 R 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 R 0 
+
+PY occupied 3,2
+0 0 0 0 0 0 0 0 0 0 R 
+ 0 0 0 0 0 0 0 0 0 0 R 
+  0 0 0 0 0 0 B B 0 0 B 
+   0 0 B R B B 0 B B B 0 
+    0 R B B 0 0 R 0 R 0 0 
+     0 R R 0 R 0 B 0 0 0 0 
+      0 B 0 B R 0 0 R 0 0 0 
+       0 0 0 R B 0 0 0 0 0 0 
+        0 R 0 R 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 R 0 
+
+JNA occupied 3,1
+0 0 0 0 0 0 0 0 0 0 R 
+ 0 0 0 0 0 0 0 0 0 0 R 
+  0 0 0 0 0 0 B B 0 0 B 
+   0 R B R B B 0 B B B 0 
+    0 R B B 0 0 R 0 R 0 0 
+     0 R R 0 R 0 B 0 0 0 0 
+      0 B 0 B R 0 0 R 0 0 0 
+       0 0 0 R B 0 0 0 0 0 0 
+        0 R 0 R 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 R 0 
+
+PY occupied 5,3
+0 0 0 0 0 0 0 0 0 0 R 
+ 0 0 0 0 0 0 0 0 0 0 R 
+  0 0 0 0 0 0 B B 0 0 B 
+   0 R B R B B 0 B B B 0 
+    0 R B B 0 0 R 0 R 0 0 
+     0 R R B R 0 B 0 0 0 0 
+      0 B 0 B R 0 0 R 0 0 0 
+       0 0 0 R B 0 0 0 0 0 0 
+        0 R 0 R 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 R 0 
+
+0 0 0 0 0 0 0 0 0 0 R 
+ 0 0 0 0 0 0 0 0 0 0 R 
+  0 0 0 0 0 0 B B 0 0 B 
+   0 R B R B B 0 B B B 0 
+    0 R B B 0 0 R 0 R 0 0 
+     0 R R B R 0 B 0 0 0 0 
+      0 B 0 B R 0 0 R 0 0 0 
+       0 0 0 R B 0 0 0 0 0 0 
+        0 R 0 R 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 R 0 
+
+Game over. JNA has timed out. PY has won!
+The game took 32 turns and lasted for 503.919s. The mean move time was 15.747s.
+JNA took 16 turns in 300.0s. Their average move time was 18.75s.
+PY took 16 turns in 203.901s. Their average move time was 12.743s.
+

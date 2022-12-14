@@ -1,0 +1,92 @@
+[agent-1] INFO com.prajeala.hex.io.Client - Received request StartClientRequest(playerColor=R, boardSize=11)
+[agent-1] INFO com.prajeala.hex.agents.AgentFactory - Using agent type parallel
+[agent-1] INFO com.prajeala.hex.agents.HexAgent - Using 10000 process iterations
+[agent-1] INFO com.prajeala.hex.agents.ParallelHexAgent - Using 32 rollout iterations
+[agent-1] INFO com.prajeala.hex.agents.ParallelHexAgent - Using 24 executor threads
+[agent-2] INFO com.prajeala.hex.io.Client - Received request StartClientRequest(playerColor=B, boardSize=11)
+[agent-2] INFO com.prajeala.hex.agents.AgentFactory - Using agent type parallel
+[agent-2] INFO com.prajeala.hex.agents.HexAgent - Using 20000 process iterations
+[agent-2] INFO com.prajeala.hex.agents.ParallelHexAgent - Using 16 rollout iterations
+[agent-2] INFO com.prajeala.hex.agents.ParallelHexAgent - Using 24 executor threads
+[agent-2] INFO com.prajeala.hex.io.Client - Took 8 milliseconds to process request
+[agent-1] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=0, y=3))
+[agent-1] INFO com.prajeala.hex.io.Client - Took 15 milliseconds to process request
+[agent-2] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=B, move=EngineMove(x=0, y=3))
+[agent-1] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=B, move=EngineMove(x=0, y=3))
+[agent-1] INFO com.prajeala.hex.io.Client - Took 0 milliseconds to process request
+[agent-2] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=5, y=5))
+[agent-2] INFO com.prajeala.hex.io.Client - Took 7 milliseconds to process request
+[agent-2] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=R, move=EngineMove(x=5, y=5))
+[agent-2] INFO com.prajeala.hex.io.Client - Took 0 milliseconds to process request
+[agent-1] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=R, move=EngineMove(x=5, y=5))
+Exception in thread "agent-1" java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.CompletableFuture$AsyncRun@50fbbe7 rejected from java.util.concurrent.ThreadPoolExecutor@4bbe73a8[Shutting down, pool size = 24, active threads = 0, queued tasks = 15, completed tasks = 121155]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1350)
+	at java.base/java.util.concurrent.Executors$DelegatedExecutorService.execute(Executors.java:687)
+	at java.base/java.util.concurrent.CompletableFuture.asyncRunStage(CompletableFuture.java:1750)
+	at java.base/java.util.concurrent.CompletableFuture.runAsync(CompletableFuture.java:1959)
+	at com.prajeala.hex.agents.ParallelHexAgent.lambda$rolloutAndBackup$3(ParallelHexAgent.java:73)
+	at java.base/java.util.stream.IntPipeline$1$1.accept(IntPipeline.java:180)
+	at java.base/java.util.stream.Streams$RangeIntSpliterator.forEachRemaining(Streams.java:104)
+	at java.base/java.util.Spliterator$OfInt.forEachRemaining(Spliterator.java:699)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:550)
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:517)
+	at com.prajeala.hex.agents.ParallelHexAgent.rolloutAndBackup(ParallelHexAgent.java:78)
+	at com.prajeala.hex.agents.ParallelHexAgent.processIteration(ParallelHexAgent.java:65)
+	at com.prajeala.hex.agents.HexAgent.getBestMove(HexAgent.java:89)
+	at java.base/java.util.Optional.orElseGet(Optional.java:369)
+	at com.prajeala.hex.agents.HexAgent.makeBestMove(HexAgent.java:80)
+	at com.prajeala.hex.Main$1.handle(Main.java:69)
+	at com.prajeala.hex.io.Client$1.run(Client.java:60)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Started game of Hex. Board is 11x11.
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 0 0 0 0 
+  0 0 0 0 0 0 0 0 0 0 0 
+   0 0 0 0 0 0 0 0 0 0 0 
+    0 0 0 0 0 0 0 0 0 0 0 
+     0 0 0 0 0 0 0 0 0 0 0 
+      0 0 0 0 0 0 0 0 0 0 0 
+       0 0 0 0 0 0 0 0 0 0 0 
+        0 0 0 0 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 0 0 
+
+JNA1 occupied 0,3
+0 0 0 R 0 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 0 0 0 0 
+  0 0 0 0 0 0 0 0 0 0 0 
+   0 0 0 0 0 0 0 0 0 0 0 
+    0 0 0 0 0 0 0 0 0 0 0 
+     0 0 0 0 0 0 0 0 0 0 0 
+      0 0 0 0 0 0 0 0 0 0 0 
+       0 0 0 0 0 0 0 0 0 0 0 
+        0 0 0 0 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 0 0 
+
+JNA2 occupied 5,5
+0 0 0 R 0 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 0 0 0 0 
+  0 0 0 0 0 0 0 0 0 0 0 
+   0 0 0 0 0 0 0 0 0 0 0 
+    0 0 0 0 0 0 0 0 0 0 0 
+     0 0 0 0 0 B 0 0 0 0 0 
+      0 0 0 0 0 0 0 0 0 0 0 
+       0 0 0 0 0 0 0 0 0 0 0 
+        0 0 0 0 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 0 0 
+
+Game over. It ended abnormally. No winner.
+The game took 2 turns and lasted for 5.017s. The mean move time was 2.508s.
+JNA1 took 1 turns in 0.021s. Their average move time was 0.021s.
+JNA2 took 1 turns in 0.013s. Their average move time was 0.013s.
+
+Exception raised: 
