@@ -1,0 +1,429 @@
+(base) bash-4.2$  python3 Hex.py "a=JNA2;java -Dcom.prajeala.hex.port=9999 -Dcom.prajeala.hex.host=127.0.0.1 -Dcom.prajeala.hex.process.iterations=10000 -Dcom.prajeala.hex.rollout.iterations=32 -Dcom.prajeala.hex.agent=parallel -Dcom.prajeala.hex.parallel.threads=24 -jar hex-1.0.1.jar" -v > 1000it_32r_24t_v_default.out
+
+
+[client-thread] INFO com.prajeala.hex.io.Client - Received request StartClientRequest(playerColor=R, boardSize=11)
+[client-thread] INFO com.prajeala.hex.agents.AgentFactory - Using agent type parallel
+[client-thread] INFO com.prajeala.hex.agents.HexAgent - Using 10000 process iterations
+[client-thread] INFO com.prajeala.hex.agents.ParallelHexAgent - Using 32 rollout iterations
+[client-thread] INFO com.prajeala.hex.agents.ParallelHexAgent - Using 24 executor threads
+[client-thread] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=9, y=10))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 15 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=B, move=EngineMove(x=9, y=10))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 0 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=R, move=EngineMove(x=10, y=1))
+[client-thread] INFO com.prajeala.hex.agents.HexAgent - Found best child with move EngineMove(x=6, y=5) and value 0.04193164600549159
+[client-thread] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=6, y=5))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 13372 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=B, move=EngineMove(x=6, y=5))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 0 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=R, move=EngineMove(x=6, y=7))
+[client-thread] INFO com.prajeala.hex.agents.HexAgent - Found best child with move EngineMove(x=7, y=5) and value 0.07967226957613414
+[client-thread] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=7, y=5))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 13913 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=B, move=EngineMove(x=7, y=5))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 0 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=R, move=EngineMove(x=1, y=8))
+[client-thread] INFO com.prajeala.hex.agents.HexAgent - Found best child with move EngineMove(x=5, y=5) and value 0.09358124970437168
+[client-thread] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=5, y=5))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 14955 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=B, move=EngineMove(x=5, y=5))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 0 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=R, move=EngineMove(x=4, y=0))
+[client-thread] INFO com.prajeala.hex.agents.HexAgent - Found best child with move EngineMove(x=4, y=4) and value 0.1964542909936242
+[client-thread] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=4, y=4))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 14945 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=B, move=EngineMove(x=4, y=4))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 0 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=R, move=EngineMove(x=6, y=9))
+[client-thread] INFO com.prajeala.hex.agents.HexAgent - Found best child with move EngineMove(x=8, y=5) and value 0.2854645156315482
+[client-thread] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=8, y=5))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 12682 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=B, move=EngineMove(x=8, y=5))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 0 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=R, move=EngineMove(x=5, y=6))
+[client-thread] INFO com.prajeala.hex.agents.HexAgent - Found best child with move EngineMove(x=2, y=5) and value 0.40147134521430483
+[client-thread] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=2, y=5))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 14393 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=B, move=EngineMove(x=2, y=5))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 0 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=R, move=EngineMove(x=3, y=2))
+[client-thread] INFO com.prajeala.hex.agents.HexAgent - Found best child with move EngineMove(x=1, y=5) and value 0.49212809222812215
+[client-thread] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=1, y=5))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 11926 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=B, move=EngineMove(x=1, y=5))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 0 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=R, move=EngineMove(x=7, y=7))
+[client-thread] INFO com.prajeala.hex.agents.HexAgent - Found best child with move EngineMove(x=9, y=5) and value 0.6066784705037279
+[client-thread] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=9, y=5))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 12440 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=B, move=EngineMove(x=9, y=5))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 0 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=R, move=EngineMove(x=8, y=4))
+[client-thread] INFO com.prajeala.hex.agents.HexAgent - Found best child with move EngineMove(x=4, y=5) and value 0.7099868513140088
+[client-thread] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=4, y=5))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 11227 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=B, move=EngineMove(x=4, y=5))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 0 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=R, move=EngineMove(x=9, y=8))
+[client-thread] INFO com.prajeala.hex.agents.HexAgent - Found best child with move EngineMove(x=10, y=4) and value 0.8088521522777349
+[client-thread] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=10, y=4))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 9297 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=B, move=EngineMove(x=10, y=4))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 0 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=R, move=EngineMove(x=0, y=2))
+[client-thread] INFO com.prajeala.hex.agents.HexAgent - Found best child with move EngineMove(x=3, y=4) and value 0.9344200966146441
+[client-thread] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=3, y=4))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 5966 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=B, move=EngineMove(x=3, y=4))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 0 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=R, move=EngineMove(x=2, y=1))
+[client-thread] INFO com.prajeala.hex.agents.HexAgent - Found best child with move EngineMove(x=0, y=6) and value 0.9999973105293829
+[client-thread] INFO com.prajeala.hex.io.Client - Sending response MoveClientResponse(engineMove=EngineMove(x=0, y=6))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 2120 milliseconds to process request
+NOTICE: Fewer than two agents specified. Missing players will be replaced with the default agent.
+Started game of Hex. Board is 11x11.
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 0 0 0 0 
+  0 0 0 0 0 0 0 0 0 0 0 
+   0 0 0 0 0 0 0 0 0 0 0 
+    0 0 0 0 0 0 0 0 0 0 0 
+     0 0 0 0 0 0 0 0 0 0 0 
+      0 0 0 0 0 0 0 0 0 0 0 
+       0 0 0 0 0 0 0 0 0 0 0 
+        0 0 0 0 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 0 
+          0 0 0 0 0 0 0 0 0 0 0 
+
+JNA2 occupied 9,10
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 0 0 0 0 
+  0 0 0 0 0 0 0 0 0 0 0 
+   0 0 0 0 0 0 0 0 0 0 0 
+    0 0 0 0 0 0 0 0 0 0 0 
+     0 0 0 0 0 0 0 0 0 0 0 
+      0 0 0 0 0 0 0 0 0 0 0 
+       0 0 0 0 0 0 0 0 0 0 0 
+        0 0 0 0 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 R 
+          0 0 0 0 0 0 0 0 0 0 0 
+
+DefaultAgent1 occupied 10,1
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 0 0 0 0 
+  0 0 0 0 0 0 0 0 0 0 0 
+   0 0 0 0 0 0 0 0 0 0 0 
+    0 0 0 0 0 0 0 0 0 0 0 
+     0 0 0 0 0 0 0 0 0 0 0 
+      0 0 0 0 0 0 0 0 0 0 0 
+       0 0 0 0 0 0 0 0 0 0 0 
+        0 0 0 0 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 R 
+          0 B 0 0 0 0 0 0 0 0 0 
+
+JNA2 occupied 6,5
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 0 0 0 0 
+  0 0 0 0 0 0 0 0 0 0 0 
+   0 0 0 0 0 0 0 0 0 0 0 
+    0 0 0 0 0 0 0 0 0 0 0 
+     0 0 0 0 0 0 0 0 0 0 0 
+      0 0 0 0 0 R 0 0 0 0 0 
+       0 0 0 0 0 0 0 0 0 0 0 
+        0 0 0 0 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 R 
+          0 B 0 0 0 0 0 0 0 0 0 
+
+DefaultAgent1 occupied 6,7
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 0 0 0 0 
+  0 0 0 0 0 0 0 0 0 0 0 
+   0 0 0 0 0 0 0 0 0 0 0 
+    0 0 0 0 0 0 0 0 0 0 0 
+     0 0 0 0 0 0 0 0 0 0 0 
+      0 0 0 0 0 R 0 B 0 0 0 
+       0 0 0 0 0 0 0 0 0 0 0 
+        0 0 0 0 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 R 
+          0 B 0 0 0 0 0 0 0 0 0 
+
+JNA2 occupied 7,5
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 0 0 0 0 
+  0 0 0 0 0 0 0 0 0 0 0 
+   0 0 0 0 0 0 0 0 0 0 0 
+    0 0 0 0 0 0 0 0 0 0 0 
+     0 0 0 0 0 0 0 0 0 0 0 
+      0 0 0 0 0 R 0 B 0 0 0 
+       0 0 0 0 0 R 0 0 0 0 0 
+        0 0 0 0 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 R 
+          0 B 0 0 0 0 0 0 0 0 0 
+
+DefaultAgent1 occupied 1,8
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 0 B 0 0 
+  0 0 0 0 0 0 0 0 0 0 0 
+   0 0 0 0 0 0 0 0 0 0 0 
+    0 0 0 0 0 0 0 0 0 0 0 
+     0 0 0 0 0 0 0 0 0 0 0 
+      0 0 0 0 0 R 0 B 0 0 0 
+       0 0 0 0 0 R 0 0 0 0 0 
+        0 0 0 0 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 R 
+          0 B 0 0 0 0 0 0 0 0 0 
+
+JNA2 occupied 5,5
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 0 B 0 0 
+  0 0 0 0 0 0 0 0 0 0 0 
+   0 0 0 0 0 0 0 0 0 0 0 
+    0 0 0 0 0 0 0 0 0 0 0 
+     0 0 0 0 0 R 0 0 0 0 0 
+      0 0 0 0 0 R 0 B 0 0 0 
+       0 0 0 0 0 R 0 0 0 0 0 
+        0 0 0 0 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 R 
+          0 B 0 0 0 0 0 0 0 0 0 
+
+DefaultAgent1 occupied 4,0
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 0 B 0 0 
+  0 0 0 0 0 0 0 0 0 0 0 
+   0 0 0 0 0 0 0 0 0 0 0 
+    B 0 0 0 0 0 0 0 0 0 0 
+     0 0 0 0 0 R 0 0 0 0 0 
+      0 0 0 0 0 R 0 B 0 0 0 
+       0 0 0 0 0 R 0 0 0 0 0 
+        0 0 0 0 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 R 
+          0 B 0 0 0 0 0 0 0 0 0 
+
+JNA2 occupied 4,4
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 0 B 0 0 
+  0 0 0 0 0 0 0 0 0 0 0 
+   0 0 0 0 0 0 0 0 0 0 0 
+    B 0 0 0 R 0 0 0 0 0 0 
+     0 0 0 0 0 R 0 0 0 0 0 
+      0 0 0 0 0 R 0 B 0 0 0 
+       0 0 0 0 0 R 0 0 0 0 0 
+        0 0 0 0 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 R 
+          0 B 0 0 0 0 0 0 0 0 0 
+
+DefaultAgent1 occupied 6,9
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 0 B 0 0 
+  0 0 0 0 0 0 0 0 0 0 0 
+   0 0 0 0 0 0 0 0 0 0 0 
+    B 0 0 0 R 0 0 0 0 0 0 
+     0 0 0 0 0 R 0 0 0 0 0 
+      0 0 0 0 0 R 0 B 0 B 0 
+       0 0 0 0 0 R 0 0 0 0 0 
+        0 0 0 0 0 0 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 R 
+          0 B 0 0 0 0 0 0 0 0 0 
+
+JNA2 occupied 8,5
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 0 B 0 0 
+  0 0 0 0 0 0 0 0 0 0 0 
+   0 0 0 0 0 0 0 0 0 0 0 
+    B 0 0 0 R 0 0 0 0 0 0 
+     0 0 0 0 0 R 0 0 0 0 0 
+      0 0 0 0 0 R 0 B 0 B 0 
+       0 0 0 0 0 R 0 0 0 0 0 
+        0 0 0 0 0 R 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 R 
+          0 B 0 0 0 0 0 0 0 0 0 
+
+DefaultAgent1 occupied 5,6
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 0 B 0 0 
+  0 0 0 0 0 0 0 0 0 0 0 
+   0 0 0 0 0 0 0 0 0 0 0 
+    B 0 0 0 R 0 0 0 0 0 0 
+     0 0 0 0 0 R B 0 0 0 0 
+      0 0 0 0 0 R 0 B 0 B 0 
+       0 0 0 0 0 R 0 0 0 0 0 
+        0 0 0 0 0 R 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 R 
+          0 B 0 0 0 0 0 0 0 0 0 
+
+JNA2 occupied 2,5
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 0 B 0 0 
+  0 0 0 0 0 R 0 0 0 0 0 
+   0 0 0 0 0 0 0 0 0 0 0 
+    B 0 0 0 R 0 0 0 0 0 0 
+     0 0 0 0 0 R B 0 0 0 0 
+      0 0 0 0 0 R 0 B 0 B 0 
+       0 0 0 0 0 R 0 0 0 0 0 
+        0 0 0 0 0 R 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 R 
+          0 B 0 0 0 0 0 0 0 0 0 
+
+DefaultAgent1 occupied 3,2
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 0 B 0 0 
+  0 0 0 0 0 R 0 0 0 0 0 
+   0 0 B 0 0 0 0 0 0 0 0 
+    B 0 0 0 R 0 0 0 0 0 0 
+     0 0 0 0 0 R B 0 0 0 0 
+      0 0 0 0 0 R 0 B 0 B 0 
+       0 0 0 0 0 R 0 0 0 0 0 
+        0 0 0 0 0 R 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 R 
+          0 B 0 0 0 0 0 0 0 0 0 
+
+JNA2 occupied 1,5
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 R 0 0 B 0 0 
+  0 0 0 0 0 R 0 0 0 0 0 
+   0 0 B 0 0 0 0 0 0 0 0 
+    B 0 0 0 R 0 0 0 0 0 0 
+     0 0 0 0 0 R B 0 0 0 0 
+      0 0 0 0 0 R 0 B 0 B 0 
+       0 0 0 0 0 R 0 0 0 0 0 
+        0 0 0 0 0 R 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 R 
+          0 B 0 0 0 0 0 0 0 0 0 
+
+DefaultAgent1 occupied 7,7
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 R 0 0 B 0 0 
+  0 0 0 0 0 R 0 0 0 0 0 
+   0 0 B 0 0 0 0 0 0 0 0 
+    B 0 0 0 R 0 0 0 0 0 0 
+     0 0 0 0 0 R B 0 0 0 0 
+      0 0 0 0 0 R 0 B 0 B 0 
+       0 0 0 0 0 R 0 B 0 0 0 
+        0 0 0 0 0 R 0 0 0 0 0 
+         0 0 0 0 0 0 0 0 0 0 R 
+          0 B 0 0 0 0 0 0 0 0 0 
+
+JNA2 occupied 9,5
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 R 0 0 B 0 0 
+  0 0 0 0 0 R 0 0 0 0 0 
+   0 0 B 0 0 0 0 0 0 0 0 
+    B 0 0 0 R 0 0 0 0 0 0 
+     0 0 0 0 0 R B 0 0 0 0 
+      0 0 0 0 0 R 0 B 0 B 0 
+       0 0 0 0 0 R 0 B 0 0 0 
+        0 0 0 0 0 R 0 0 0 0 0 
+         0 0 0 0 0 R 0 0 0 0 R 
+          0 B 0 0 0 0 0 0 0 0 0 
+
+DefaultAgent1 occupied 8,4
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 R 0 0 B 0 0 
+  0 0 0 0 0 R 0 0 0 0 0 
+   0 0 B 0 0 0 0 0 0 0 0 
+    B 0 0 0 R 0 0 0 0 0 0 
+     0 0 0 0 0 R B 0 0 0 0 
+      0 0 0 0 0 R 0 B 0 B 0 
+       0 0 0 0 0 R 0 B 0 0 0 
+        0 0 0 0 B R 0 0 0 0 0 
+         0 0 0 0 0 R 0 0 0 0 R 
+          0 B 0 0 0 0 0 0 0 0 0 
+
+JNA2 occupied 4,5
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 R 0 0 B 0 0 
+  0 0 0 0 0 R 0 0 0 0 0 
+   0 0 B 0 0 0 0 0 0 0 0 
+    B 0 0 0 R R 0 0 0 0 0 
+     0 0 0 0 0 R B 0 0 0 0 
+      0 0 0 0 0 R 0 B 0 B 0 
+       0 0 0 0 0 R 0 B 0 0 0 
+        0 0 0 0 B R 0 0 0 0 0 
+         0 0 0 0 0 R 0 0 0 0 R 
+          0 B 0 0 0 0 0 0 0 0 0 
+
+DefaultAgent1 occupied 9,8
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 R 0 0 B 0 0 
+  0 0 0 0 0 R 0 0 0 0 0 
+   0 0 B 0 0 0 0 0 0 0 0 
+    B 0 0 0 R R 0 0 0 0 0 
+     0 0 0 0 0 R B 0 0 0 0 
+      0 0 0 0 0 R 0 B 0 B 0 
+       0 0 0 0 0 R 0 B 0 0 0 
+        0 0 0 0 B R 0 0 0 0 0 
+         0 0 0 0 0 R 0 0 B 0 R 
+          0 B 0 0 0 0 0 0 0 0 0 
+
+JNA2 occupied 10,4
+0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 R 0 0 B 0 0 
+  0 0 0 0 0 R 0 0 0 0 0 
+   0 0 B 0 0 0 0 0 0 0 0 
+    B 0 0 0 R R 0 0 0 0 0 
+     0 0 0 0 0 R B 0 0 0 0 
+      0 0 0 0 0 R 0 B 0 B 0 
+       0 0 0 0 0 R 0 B 0 0 0 
+        0 0 0 0 B R 0 0 0 0 0 
+         0 0 0 0 0 R 0 0 B 0 R 
+          0 B 0 0 R 0 0 0 0 0 0 
+
+DefaultAgent1 occupied 0,2
+0 0 B 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 R 0 0 B 0 0 
+  0 0 0 0 0 R 0 0 0 0 0 
+   0 0 B 0 0 0 0 0 0 0 0 
+    B 0 0 0 R R 0 0 0 0 0 
+     0 0 0 0 0 R B 0 0 0 0 
+      0 0 0 0 0 R 0 B 0 B 0 
+       0 0 0 0 0 R 0 B 0 0 0 
+        0 0 0 0 B R 0 0 0 0 0 
+         0 0 0 0 0 R 0 0 B 0 R 
+          0 B 0 0 R 0 0 0 0 0 0 
+
+JNA2 occupied 3,4
+0 0 B 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 R 0 0 B 0 0 
+  0 0 0 0 0 R 0 0 0 0 0 
+   0 0 B 0 R 0 0 0 0 0 0 
+    B 0 0 0 R R 0 0 0 0 0 
+     0 0 0 0 0 R B 0 0 0 0 
+      0 0 0 0 0 R 0 B 0 B 0 
+       0 0 0 0 0 R 0 B 0 0 0 
+        0 0 0 0 B R 0 0 0 0 0 
+         0 0 0 0 0 R 0 0 B 0 R 
+          0 B 0 0 R 0 0 0 0 0 0 
+
+DefaultAgent1 occupied 2,1
+0 0 B 0 0 0 0 0 0 0 0 
+ 0 0 0 0 0 R 0 0 B 0 0 
+  0 B 0 0 0 R 0 0 0 0 0 
+   0 0 B 0 R 0 0 0 0 0 0 
+    B 0 0 0 R R 0 0 0 0 0 
+     0 0 0 0 0 R B 0 0 0 0 
+      0 0 0 0 0 R 0 B 0 B 0 
+       0 0 0 0 0 R 0 B 0 0 0 
+        0 0 0 0 B R 0 0 0 0 0 
+         0 0 0 0 0 R 0 0 B 0 R 
+          0 B 0 0 R 0 0 0 0 0 0 
+[client-thread] INFO com.prajeala.hex.io.Client - Received request MoveClientRequest(playerColor=END, move=EngineMove(x=0, y=6))
+[client-thread] INFO com.prajeala.hex.io.Client - Took 0 milliseconds to process request
+[client-thread] INFO com.prajeala.hex.io.Client - Received request EndClientRequest(playerColor=R)
+
+JNA2 occupied 0,6
+0 0 B 0 0 0 R 0 0 0 0 
+ 0 0 0 0 0 R 0 0 B 0 0 
+  0 B 0 0 0 R 0 0 0 0 0 
+   0 0 B 0 R 0 0 0 0 0 0 
+    B 0 0 0 R R 0 0 0 0 0 
+     0 0 0 0 0 R B 0 0 0 0 
+      0 0 0 0 0 R 0 B 0 B 0 
+       0 0 0 0 0 R 0 B 0 0 0 
+        0 0 0 0 B R 0 0 0 0 0 
+         0 0 0 0 0 R 0 0 B 0 R 
+          0 B 0 0 R 0 0 0 0 0 0 
+
+Game over. JNA2 has won!
+The game took 25 turns and lasted for 137.317s. The mean move time was 5.492s.
+JNA2 took 13 turns in 137.305s. Their average move time was 10.561s.
+DefaultAgent1 took 12 turns in 0.0s. Their average move time was 0.0s.
+
